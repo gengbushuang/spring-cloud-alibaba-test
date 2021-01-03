@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: dubbo-demo
+
+dubbo:
+  application:
+    name: spring-provider
+  protocol:
+    name: dubbo
+    port: 22222
+  registry:
+    address: N/A
